@@ -1,0 +1,17 @@
+{
+  "name": "siteestaticobootstrap",
+  "version": "1.0.0",
+  "description": "Paginas com Bootstrap",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Roberto",
+  "license": "ISC",
+  "dependencies": {},
+  "devDependencies": {
+    "bootstrap": "^4.1.3",
+    "jquery": "^3.5.1",
+    "popper.js": "^1.16.1"
+  }
+}

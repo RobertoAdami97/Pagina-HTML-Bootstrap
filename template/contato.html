@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato</title>
+    <link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.min.css">
+</head>
+<body>
+    
+
+    <div class="card">
+      <div class="card-header d-flex">
+        <p><h3 class="card-title mr-3">Contato</h3></p>
+        <ul class="nav nav-pills card-header-pills">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="servicosPrestados.html">Serviços Prestados</a>
+          </li>
+        </ul>
+      </div>
+      <div class="card-body m-3 p-3 text-center">
+        <form class="m-5">
+          <div class="form-row d-flex justify-content-center">
+            <div class="col-4">
+              <label class="d-flex justify-content-flex-start" for="nome">Nome</label>
+            <input type="text" class="form-control" id="nome"  placeholder="Seu nome">
+            </div>
+            <div class="col-4">
+              <label class="d-flex justify-content-flex-start" for="email">E-mail</label>
+              <input type="password" class="form-control" id="email" aria-describedby="email" placeholder="Seu email">
+              <small id="email" class="form-text text-muted">Nunca vamos compartilhar seu email, com ninguém.</small>
+            </div>
+          </div> 
+          <div class="form-row d-flex justify-content-center">
+            <div class="col-4">
+              <label class="d-flex" for="telefone">Telefone</label>
+              <input type="tel" class="form-control" id="telefone" placeholder="(xx) xxxxx-xxxx">
+              <small id="telefone" class="form-text text-muted">Não adicione os parentes( ) e nem o traço -</small>
+            </div>
+            <div class="col-4">
+              <label class="d-flex" for="assunto">Assunto</label>
+            <input type="text" class="form-control" id="assunto"  placeholder="Assunto">
+            </div>
+          </div>
+          <div class="row ml-5 pl-5 mt-3">
+            <label class="ml-5 pl-5" for="textArea">Descrição</label>
+          </div>
+          <div class="form-row d-flex justify-content-center">
+              <textarea class="form-control col-8" id="textArea" rows="5" cols="5" style="resize: none;"></textarea>
+          </div>
+            <div class="row form-check d-flex justify-content-flex-start ml-5 pl-5 mt-2">
+              <div class="ml-5 pl-1">
+                <input type="checkbox" class="form-check-input ml-5 pl-5" id="check">
+                <label class="form-check-label ml-5 pl-3" for="check">Eu li e concordo com os termos de uso</label>
+              </div>
+            </div>
+          <div class="form-row d-flex justify-content-flex-start mt-3 ml-5 pl-5">
+            <div class="ml-5 pl-5">
+              <button type="submit" class="btn btn-primary">Enviar</button>
+            </div>
+          </div>
+        </form>
+      </div>
+      <div class="footer card-footer container-fluid bg-gradient-secondary mt-3 p-5">
+        <span class="card-text d-flex justify-content-center">&copy;Bootstrap Enterprise RCA &reg;</span>
+      </div>
+    </div>
+    <script src="../node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="../node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="../node_modules/popper.js/dist/popper.min.js"></script>
+</body>
+</html>
